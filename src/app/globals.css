@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-nunito);
+  --font-heading: var(--font-poppins);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    @apply font-heading;
+  }
+}

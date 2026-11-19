@@ -12,7 +12,7 @@ export default function Header() {
         >
           <Image
             src="/petone_logo.svg"
-            alt="Company name"
+            alt="Pet One"
             width={200}
             height={77}
             className="h-24 w-auto"
